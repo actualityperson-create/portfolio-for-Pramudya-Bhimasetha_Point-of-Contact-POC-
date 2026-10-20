@@ -775,6 +775,20 @@
         <i data-lucide="message-circle" class="w-6 h-6"></i>
     </a>
 
+    <!-- FLOATING BACKGROUND MUSIC PLAYER WIDGET -->
+    <div class="fixed bottom-6 left-6 z-50 glass-card p-3 rounded-2xl flex items-center gap-3 shadow-2xl border border-cyan-400/30">
+        <div class="w-8 h-8 rounded-lg bg-cyan-400/10 border border-cyan-400/30 flex items-center justify-center text-cyan-400">
+            <i data-lucide="music" class="w-4 h-4"></i>
+        </div>
+        <div class="flex flex-col">
+            <span class="text-[10px] font-mono text-cyan-400 uppercase">Background Audio</span>
+            <audio id="bg-music" controls class="h-8 w-48 sm:w-60">
+                <source src="Tokyo Drift - Teriyaki Boyz.mp3" type="audio/mpeg">
+                Browser Anda tidak mendukung elemen audio.
+            </audio>
+        </div>
+    </div>
+
     <!-- CV SUMMARY MODAL -->
     <div id="cv-modal" class="fixed inset-0 z-50 hidden bg-navy-900/90 backdrop-blur-md flex items-center justify-center p-4">
         <div class="glass-card max-w-2xl w-full p-6 sm:p-8 rounded-2xl max-h-[90vh] overflow-y-auto relative">
